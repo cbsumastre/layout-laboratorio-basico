@@ -53,20 +53,49 @@ body {
             margin-top: 15px;
             padding: 20px;
             width: 100%;
-            background-color:#76BA1B;
+            background-color: #76BA1B;
             color: white;
             border: 0px;
             font-size: 1.1rem;
             border-radius: 2px;
             transition: all 0.3s ease-in-out;
+
             &:hover {
                 cursor: pointer;
             }
+
             &:active {
                 transform: scale(1.03);
             }
         }
     }
+}
 
+@media (width <=550px) {
+    .card {
+        width: 300px;
 
+        header {
+            font-size: 1rem;
+            font-weight: 700;
+        }
+
+        main {
+            font-size: 0.8rem;
+        }
+
+        footer {
+            div {
+
+                .label-published,
+                .date-published {
+                    font-size: 1rem;
+                }
+            }
+        }
+
+        button {
+            font-size: 1rem;
+        }
+    }
 }
