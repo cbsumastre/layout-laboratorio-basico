@@ -1,4 +1,4 @@
 # Layout - Laboratorio BÁSICO
 
-[Ejercicos](ejercicios.pdf)).
+[Ejercicios](ejercicios.pdf)
 
