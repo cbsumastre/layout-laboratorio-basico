@@ -10,7 +10,6 @@ Resultado resoluciones menores:
 ![resultado resoluciones menores](./resultado2.png)
 
 ##  Instrucciones
-
 | Instrucción               |                                                                         |
 | :------------------------ | :---------------------------------------------------------------------- |
 | `npm install`             | Instala las dependencias                                                |
