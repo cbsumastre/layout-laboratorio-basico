@@ -1,2 +1,8 @@
-# layout-laboratorio-basico
-Master Front End XVII - Modulo 1 - Layout - Laboratorio Básico
+# Ejercicio 1
+
+- Usar el lenguaje SASS para crear distintos temas de paletas de colores.
+
+- La idea es partir de un color base, y a partir de ese color generar 4 colores más oscuros de manera gradual, y cuatro colores más claros de manera gradual.
+
+- Para comprobar que todo esta funcionando como se espera utilizar el html del enunciado ([ver pdf](./01-enunciado-ejercicio-laboratorio.pdf)).
+
