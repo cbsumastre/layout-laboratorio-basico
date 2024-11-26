@@ -29,7 +29,7 @@ body {
         list-style: none;
         background-color: cadetblue;
         color: white;
-        width: 800px;
+        width: 1280px;
 
         display: flex;
         flex-direction: row;
@@ -58,12 +58,21 @@ body {
     }
 }
 
+@media (width <=1300px) {
+    .nav-container {
+        ul {
+            width: 800px;
+        }
+    }
 
-@media (width <=1250px) {
+}
+
+
+@media (width <=800px) {
     .nav-container {
         ul {
             flex-direction: column;
-            width: 400px;
+            width: 500px;
 
             li p {
                 text-align: center;
