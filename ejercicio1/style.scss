@@ -1,0 +1,58 @@
+@use "base" as *;
+@use "sass:list";
+
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+h1, h2 {
+    color: #e76f51;
+}
+
+.box {
+    width: $box-size;
+    height: $box-size;
+    border: 1px solid black;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@for $i from 1 through 3 {
+    $box-background-color-base: list.nth($colors,$i);
+    .container#{$i} {
+        margin: 10px;
+        display: grid;
+        grid-template-columns: repeat(9, $box-size);
+        gap: 20px;
+        @for $j from 1 through 4 {
+            div.darken-#{$j} {
+                background: $box-background-color-base;
+                filter: brightness(1-(0.10*$j))
+            }
+
+            div.lighten-#{$j} {
+                background: $box-background-color-base;
+                filter: brightness(1+(0.10*$j))
+            }
+        }
+        
+        div.base-color {
+            background: $box-background-color-base;
+            filter: brightness(1)
+        }
+
+    }
+}
+
+.color-box-text {
+    color: white;
+}
