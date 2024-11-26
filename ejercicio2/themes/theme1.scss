@@ -1,0 +1,26 @@
+$border-radius-custom: 0px;
+
+.principal-font {
+    font-family: 'Times New Roman', Times, serif
+}
+
+.secondary-font {
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+.base {
+    background: red;
+}
+
+.important {
+    background: brown;
+}
+
+.warning {
+    background: pink;
+}
+
+.with-shadow {
+    padding: 0px;  
+    box-shadow: -2px 2px 1px 1px black;
+}

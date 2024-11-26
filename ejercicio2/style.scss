@@ -1,0 +1,27 @@
+@use "themes/theme2.scss" as *;
+/*@use "themes/theme2.scss" as *;*/
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: 'Courier New', Courier, monospace
+}
+
+.box {
+    width: 120px;
+    min-height: 50px;
+    height: auto;
+    border: 1px solid gray;
+    padding-top: 10px;
+    padding-left: 10px;
+    border-radius: $border-radius-custom;
+}
+
+.no-border {
+    border: 0px;
+}
