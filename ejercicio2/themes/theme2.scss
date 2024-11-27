@@ -1,26 +1,13 @@
 $border-radius-custom: 5px;
 
-.principal-font {
-    font-family: Georgia, 'Times New Roman', Times, serif
-}
+$principal-font: Tahoma, "Trebuchet MS", sans-serif;
 
-.secondary-font {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
-}
+$secondary-font: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
-.base {
-    background: blue;
-}
+$base-background-color: blue;
 
-.important {
-    background: darkblue;
-}
+$important-background-color:darkblue;
 
-.warning {
-    background: cyan;
-}
+$warning-background-color: cyan;
 
-.with-shadow {
-    padding: 0px;  
-    box-shadow: 2px 5px 5px -1px black;
-}
+$box-shadow:2px 5px 5px -1px black;

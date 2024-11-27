@@ -24,3 +24,28 @@ body {
 .no-border {
     border: 0px;
 }
+
+.principal-font {
+    font-family: $principal-font;
+}
+
+.secondary-font {
+    font-family: $secondary-font;
+}
+
+.base {
+    background-color: $base-background-color;
+}
+
+.important {
+    background-color: $important-background-color;
+}
+
+.warning {
+    background: $warning-background-color;
+}
+
+.with-shadow {
+    padding: 10px;  
+    box-shadow: $box-shadow;
+}
