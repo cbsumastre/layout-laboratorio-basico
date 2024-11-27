@@ -33,18 +33,12 @@ body {
 
         display: flex;
         flex-direction: row;
+        justify-content: space-around;
 
         li {
-            padding: 10px;
-            flex-grow: 4;
-
-            &:nth-child(3) {
-                flex-grow: 1;
-            }
-
-            &:last-child {
-                text-align: right;
-            }
+            text-align: center;
+            width: 100%;
+            padding: 10px 0px;
 
             &:hover {
                 background-color: darkslategray;
@@ -73,11 +67,6 @@ body {
         ul {
             flex-direction: column;
             width: 500px;
-
-            li p {
-                text-align: center;
-            }
-
         }
     }
 
